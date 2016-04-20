@@ -3,7 +3,7 @@
 This document will describe the basic steps needed to setup the server so that it is ready for our honeypot(s) to be installed.
 All steps are performed on a fresh Ubuntu 14.04 LTS install.
 
-##SSh onto the box##
+##SSH onto the box##
 First things First, ssh onto the shiney new box. My VPS supplier defaults to using root for the intial account on each box so you will nee dto change this if your provider auto creates a less privaledged user:
 
 `$ ssh root@<Server IP>`
@@ -27,8 +27,10 @@ This will now give us a nice upto date system with which to gegin our work.
 
 Next up we will change the hostname of the system, this is done by editing 2 files:
 
-```$ nano /etc/hostname
-$ nano /etc/hosts```
+```bash
+$ nano /etc/hostname
+$ nano /etc/hosts
+```
 
 ##Passwords and user accounts##
 

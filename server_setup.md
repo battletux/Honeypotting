@@ -14,10 +14,12 @@ Enter your password when prompted.
 
 First up it's time to perform all needed updates:
 
-```$ apt-get update
+```bash
+$ apt-get update
 $ apt-get upgrade -y
 $ apt-get dist-upgrade -y
-$ apt-get autoremove -y```
+$ apt-get autoremove -y
+```
 
 This will now give us a nice upto date system with which to gegin our work.
 
